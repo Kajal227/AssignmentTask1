@@ -1,0 +1,41 @@
+package com.tka.AssignmentOne;
+
+import java.util.Scanner;
+
+public class ConditionMsg 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter The Number to check condition");
+		int Number = sc.nextInt();
+	    
+		if(Number % 3 == 0 && Number % 5==0)
+		{
+			System.out.println("Mango and Apple");
+		}
+		else if(Number % 3 == 0)
+		{
+			System.out.println("Mango");
+		}
+		
+		else if(Number % 5 == 0)
+			{
+				System.out.println("Apple");
+			}
+		
+		
+		else
+		{
+			System.out.println(Number);
+	
+		}
+		
+		
+		
+		
+	}
+	
+
+}
