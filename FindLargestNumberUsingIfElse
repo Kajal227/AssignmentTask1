@@ -1,0 +1,40 @@
+package com.tka.AssignmentOne;
+
+import java.util.Scanner;
+
+public class ThreeLargestNum
+{
+	public static void main(String[] args) 
+	{	
+			Scanner sc=new Scanner(System.in);
+			
+			System.out.println("Enter The First Number");
+			
+			int Number1 = sc.nextInt();
+			
+		    System.out.println("Enter The Second Number");
+			
+			int Number2 = sc.nextInt();
+			
+		    System.out.println("Enter The Third Number");
+			
+			int Number3 = sc.nextInt();
+			
+		if(Number1>=Number2)
+		{
+			System.out.println("Number One is large");
+			
+		}
+		
+		else if(Number2>=Number3)
+		{
+			System.out.println("Number Two is large");
+		}
+		
+		else
+		{
+			System.out.println("Number Three is large");
+		}
+		
+	}
+}
